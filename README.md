@@ -22,4 +22,39 @@
         `pip install pandas matplotlib seaborn sklearn`
 
 # 2. Start jupyterlab
-  `jupyter-lab`
+    run command
+
+       `jupyter-lab`
+
+# 3. Project Motivation
+    By go through the Seattle airbnb data, try to find something interesting:
+    1. who are the hosts?
+    2. who are the guests:
+    3. what do the guests care about?
+# 4. File Descriptions
+    input/seattle/
+    The dictionary of seattle airbnb open data
+
+    The following Airbnb files are included in this dictionary:
+
+    listings.csv, including full descriptions and average review score
+    reviews.csv, including unique id for each reviewer and detailed comments
+    calendar.csv, including listing id and the price and availability for that day
+# 5. Results
+    1. Who are the hosts?
+      1. Entire home/apt(67%)
+      2. Long term hosts(52%, 300+ days available in a year)
+    2. Who are the guests?
+      1. Affordable price
+      2. Couples or couples with children
+    3. What does the guest care about?
+      1. Value, cleanliness, accuracy are the top3 of the review scores
+      2. Bungalow
+      3. Neighborhood
+      4. Smoke allowed and PETS 
+    
+# 6. Acknowledgement
+    This dataset is part of Airbnb Inside, and the original source can be found [here](http://insideairbnb.com/get-the-data.html).  
+
+
+    
