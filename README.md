@@ -10,8 +10,11 @@
       + Archlinux
         - `sudo pacman -S jupyterlab`
 2. install pip for python
-      + `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`
-        
+      + Archlinux (not recommended to use pip on archlinux)
+         - `sudo pacman -S python-pip`(outdated since 2021-01-26)
+      + Mac
+         - `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`
+
 3. install python module
       
       + Archlinux
